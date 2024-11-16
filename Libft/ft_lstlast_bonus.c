@@ -20,19 +20,3 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
-/*int main()
-{
-	t_list l1, l2, l3;
-	t_list  *lastlst;
-
-	l1.content = "nis";
-	l1.next = &l2;
-	l2.content = "ach";
-	l2.next = &l3;
-	l3.content = "hell";
-	l3.next = NULL;
-	lastlst = ft_lstlast(&l1);
-	if (lastlst)
-		printf("%s\n%p\n", (char *)lastlst -> content, lastlst -> next);
-	return (0);
-}*/
