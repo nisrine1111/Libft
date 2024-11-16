@@ -20,29 +20,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 		free(lst);
 	}
 }
-/*void	del(void *content)
-{
-	free(content);
-}
- int main()
-{
-	t_list	*freenode;
-	char	*freecontent;
-
-	freenode = malloc(sizeof(t_list));
-	if (!freenode)
-		return (1);
-	freecontent = ft_strdup("hey nis");
-	if (!freecontent)
-	{
-		free(freenode);
-		return (1);
-	}
-	freenode->content = freecontent;
-	freenode->next = NULL;
-	printf("%s\n%p\n", freenode->content, freenode->next);
-	ft_lstdelone(freenode, del);
-	printf("%s\n%p\n", freenode->content, freenode->next);
-
-	return (0);
-}*/
