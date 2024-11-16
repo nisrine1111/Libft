@@ -70,11 +70,3 @@ char	*ft_itoa(int n)
 	}
 	return (ascii);
 }
-/*int	main(void)
-{
-	int	n;
-
-	n = -897455;
-	printf("%s", ft_itoa(n));
-	return (0);
-}*/
