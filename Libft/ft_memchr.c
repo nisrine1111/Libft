@@ -29,9 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*int main()
-{
-	char s[] = "nisrine";
-	printf("%p\n", ft_memchr(s, 's', 6));
-	return (0);
-}*/
