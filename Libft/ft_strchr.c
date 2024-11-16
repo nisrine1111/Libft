@@ -24,12 +24,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
-/*int main()
-{
-	char	s[] = "nisrine";
-	char	*ch;
-
-	ch = ft_strchr(s, '\0');
-	printf("%p", ch);
-	return (0);
-}*/
