@@ -24,15 +24,3 @@ void	ft_bzero(void *s, size_t n)
 		n--;
 	}
 }
-/*int main()
-{
-	char arr[13] = "n2 @3ach";
-
-	printf("%s\n", arr);
-	ft_bzero(arr, 4);
-	for (int i = 0; i < 4; i++)
-	{
-		printf("%d", arr[i]);
-	}
-	return (0);
-}*/
