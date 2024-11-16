@@ -26,11 +26,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_memset(ptr, 0, total_size);
 	return (ptr);
 }
-/*int main()
-{
-	int	*s = ft_calloc(4, 4);
-	for (int i = 0; i < 4; i++)
-		printf("%p\n", (void *)&s[i]);
-	free(s);
-	return (0);
-}*/
