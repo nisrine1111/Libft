@@ -25,13 +25,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-/*int main()
-{
-	char arr[6] = "nisach";
-	char *ar = "";
-
-	printf("%s\n", arr);
-	ft_memset(arr, 'a', 6);
-	printf("%s\n", arr);
-	return (0);
-}*/
