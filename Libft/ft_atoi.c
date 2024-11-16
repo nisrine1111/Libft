@@ -40,8 +40,3 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)(sign * res));
 }
-/*int main()
-{
-	printf("%d\n", ft_atoi("  -798687"));
-	return (0);
-}*/
