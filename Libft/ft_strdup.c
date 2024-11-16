@@ -29,10 +29,3 @@ char	*ft_strdup(const char *s1)
 	s2[i] = s1[i];
 	return (s2);
 }
-/*int main()
-{
-	char s[] = "hey nis";
-
-	printf("%s\n", ft_strdup(s));
-	return (0);
-}*/
