@@ -12,10 +12,6 @@
 
 #include "libft.h"
 
-/*void	print_content(void *content)
-{
-	printf("%s\n", (char *)content);
-}*/
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (lst && f)
@@ -27,16 +23,3 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		}
 	}
 }
-/*int main()
-{
-	t_list	n1, n2;
-
-	t_list	*head;
-	head = &n1;
-	n1.content = "nis";
-	n1.next = &n2;
-	n2.content = "ach";
-	n2.next = NULL;
-	ft_lstiter(head, print_content);
-	return (0);
-}*/
