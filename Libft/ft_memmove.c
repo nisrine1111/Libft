@@ -35,13 +35,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-/*int main()
-{
-	char dst[20];
-	char src[] = "hey memmove";
-
-	printf("%s\n", dst);
-	ft_memmove(dst, src, 9);
-	printf("%s\n", dst);
-	return (0);
-}*/
