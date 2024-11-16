@@ -81,23 +81,3 @@ char	**ft_split(char const *s, char c)
 	words_array[j] = NULL;
 	return (words_array);
 }
-/*int main()
-{
-	char **result;
-	char *str = "@@Hello@@World This@Is@ft_split.@";
-	char delimiter = '@';
-
-	result = ft_split(str, delimiter);
-	if (result)
-	{
-		int i = 0;
-		while (result[i])
-		{
-			printf("%s\n", result[i]);
-			i++;
-		}
-
-		free(result);
-	}
-	return (0);
-}*/
