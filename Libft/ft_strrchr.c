@@ -30,9 +30,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*int main()
-{
-	char	s[] = "nisrine";
-	printf("%p", ft_strrchr(s, '\0'));
-	return (0);
-}*/
