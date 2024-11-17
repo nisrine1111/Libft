@@ -34,11 +34,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-/*t main()
-{
-	char haystack[] = "hey nis ach";
-	char needle[] = "";
-
-	printf("%s", strnstr(haystack, needle, 11));
-	return (0);
-}*/
