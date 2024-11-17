@@ -38,10 +38,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ptr[i] = '\0';
 	return (ptr);
 }
-/*int main()
-{
-	char str[] = "@@@hey @nis@";
-	char set[] = "@";
-	printf("%s\n", ft_strtrim(str, set));
-	return (0);
-}*/
