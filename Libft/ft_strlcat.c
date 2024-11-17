@@ -36,11 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[i] = '\0';
 	return (dsts + srcs);
 }
-/*int main()
-{
-	char dst[] = "hey ";
-	const char src[] = "nisrine!!";
-
-	printf("%zu\n", ft_strlcat(dst, src, 7));
-	return (0);
-}*/
