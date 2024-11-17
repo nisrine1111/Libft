@@ -62,10 +62,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strcat(str, sb);
 	return (str);
 }
-/*int main()
-{
-	char s1[] = "nis 1";
-	char s2[] = "ach";
-	printf("%s", ft_strjoin(s1, s2));
-	return (0);
-}*/
