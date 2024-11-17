@@ -30,11 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 		i++;
 	return (i);
 }
-/*int main()
-{
-	char dst[8];
-	const char src[] = "nisrine";
-	printf("%zu\n", ft_strlcpy(dst, src, 9));
-	printf("%s", dst);
-	return (0);
-}*/
