@@ -29,22 +29,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*int main()
-{
-	char *res = ft_strmapi("nisrine ach", ftoupper);
-
-	printf("%s", res);
-	free(res);
-	return (0);
-}*/
-
-/*char	ftoupper(unsigned int i, char c)
-{
-	unsigned int	i;
-	char			*str;
-
-	(void)i;
-	if (c >= 97 && c <= 122)
-		c -= 32;
-	return (c);
-}*/
